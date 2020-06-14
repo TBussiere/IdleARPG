@@ -18,5 +18,6 @@ public class UISeparator : MonoBehaviour
         float posX = tailleParent / nbperso * (id + 1);
 
         this.GetComponent<RectTransform>().anchoredPosition = new Vector2(posX, 0);
+
     }
 }
