@@ -9,19 +9,13 @@ namespace Assets.scripts.Model
 {
     class GameModelManager
     {
-        long xpPoints;
-        long cashShopGems;
+        Player po;//PlayerObject
 
         List<Character> allCharacters;//stats/arbre serra link a la gestion des lvl.
-        List<Character> charactersStorage;
-        List<Character> playingCharacters;
 
         List<WorldLevel> worldLevelList;// drops/mob
-        WorldLevel currentWorldLevel;
 
         List<Stuff> allStuffs;//currency/item
-        List<Stuff> allStuffsOwn;
-        List<Stuff> nonEquipStuffs;
 
         List<Lootable> lootablesList;// les box avec les rates
     }

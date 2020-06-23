@@ -9,5 +9,19 @@ namespace Assets.scripts.Model
     class PassiveTree
     {
         //TODO
+        internal int getFlatHP()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal int getIncreaseHP()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal int getMoreHP()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
